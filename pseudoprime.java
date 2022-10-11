@@ -25,5 +25,6 @@ public class pseudoprime {
         for(String[] str:lineStrs){
             algo(str);
         }
+        sc.close();
     }
 }

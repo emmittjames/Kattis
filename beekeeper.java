@@ -38,5 +38,6 @@ public class beekeeper {
             }
             algo(list);
         }
+        sc.close();
     }
 }
