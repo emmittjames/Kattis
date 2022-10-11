@@ -19,5 +19,6 @@ public class testdrive {
         else{
             System.out.println("cruised");
         }
+        sc.close();
     }
 }
