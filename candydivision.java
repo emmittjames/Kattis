@@ -14,5 +14,6 @@ public class candydivision {
         while(!stack.isEmpty()){
             System.out.print(stack.pop()-1 + " ");
         }
+        sc.close();
     }
 }
