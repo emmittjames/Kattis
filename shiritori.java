@@ -2,8 +2,7 @@ import java.util.*;
 
 public class shiritori {
     
-    private static int algo(){
-        Scanner sc = new Scanner(System.in);
+    private static int algo(Scanner sc){
         int runs = Integer.parseInt(sc.nextLine());
         HashSet<String> set = new HashSet<>();
         String prevLine = sc.nextLine();
@@ -32,7 +31,8 @@ public class shiritori {
         return 0;
     }
     public static void main(String[]args){
-        int result = algo();
+        Scanner sc = new Scanner(System.in);
+        int result = algo(sc);
         if(result==0){
             System.out.println("Fair Game");
         }
