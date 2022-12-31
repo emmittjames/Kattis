@@ -1,1 +1,1 @@
-# Kattis solutions
+### My Kattis solutions for ICPC practices
