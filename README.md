@@ -1,1 +1,2 @@
 # Kattis solutions
+ICPC solutions
